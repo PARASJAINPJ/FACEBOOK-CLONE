@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="head">
+            <img src="cover.jpg" id="cover">
+        </div>
+
+        <div class="profile-image">
+            <div class="profile-image-div">
+                <img src="profile.jpg" id="profile">
+                <div class="name">
+                    <h1>Mark Zuckerberg</h1><p>500+ Friends</p>
+                </div>
+            </div>    
+            <div class="button">
+                <button id="b1"><span class="iconify" data-icon="teenyicons:add-outline"></span> Add to story</button>
+                <button id="b2"><span class="iconify" data-icon="material-symbols:edit-outline"></span> Edit Profile</button>
+            </div>
+            <hr>
+        </div>
+
+
+
+        <div class="wrapper">
+            <div class="main">
+                <div class="details">
+                    <h1>Details</h1><br>
+                    <button class="btn1"><span class="iconify" data-icon="teenyicons:add-outline"></span> Add Bio</button><br><br>
+                    <span class="iconify" data-icon="pajamas:work"></span> CEO of Meta<br><br>
+                    <span class="iconify" data-icon="zondicons:education"></span> Harvard University<br><br>
+                    <span class="iconify" data-icon="carbon:location"></span> New York, United States<br><br>
+                    <span class="iconify" data-icon="mdi:instagram"></span> <a href="https://www.instagram.com/zuck/?hl=en" target="_blank">@zuck</a><br><br>
+                    <span> DOB: 14 May 1984</span><br><br>
+                    <button class="btn1"><span class="iconify" data-icon="material-symbols:edit-outline"></span> Edit details</button><br>
+                </div>
+                <div class="photos">
+                    <h1>Photos</h1>
+                    <div>
+                        <img src="p1.jpg" class="picture">
+                        <img src="post.jpg" class="picture">
+                        <img src="profile.jpg" class="picture">
+                        <img src="post2.jpg" class="picture">
+                        <img src="post3.jpg" class="picture">
+                        <img src="post4.jpg" class="picture">
+                        <button class="btn1">See All Photos</button>
+                    </div>
+                </div>
+
+                <div class="friends">
+                    <h1>Friends</h1>
+                    <div class="friends-card">
+                        <div class="friends-card-div">
+                            <div class="friend"><img src="p2.jpg" class="f1">Elon Musk</div>
+                            <div class="friend"><img src="p3.jpg" class="f1">Jeff Bezos</div>
+                            <div class="friend"><img src="p4.jpg" class="f1">Steve Jobs</div>
+                        </div>
+                        <button class="btn1">See All Friends</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="posts-container">
+                <div class="timeline">
+                    <div id="box">
+                        <img src="profile.jpg" id="pro">
+                        <input id="search" type="input" placeholder="What's on your mind?">
+                    </div>
+                    <hr>
+                    <div class="feature-button">
+                        <button id = "addBtn"  class="btn"><span class="iconify" data-icon="ic:outline-send"></span> Post on Timeline</button>
+                        <button class="btn"><span class="iconify" data-icon="fa-solid:photo-video"></span> Photo/Video</button>
+                        <button class="btn"><span class="iconify" data-icon="ri:live-line"></span> Live Video</button>
+                    </div>
+                </div>
+
+                <div id="p"></div>
+                <div class="posts">
+                    <div class="post-info">
+                        <img src="profile.jpg" id="pro">
+                        Mark Zuckerberg Shared a post.<br>15 August 2023
+                    </div>
+                    
+                    <img src="post.jpg" id="pic1">
+                    <hr>
+                    <div class="feature-button">
+                        <button class="btn"><span class="iconify" data-icon="iconamoon:like-light"></span> Like</button>
+                        <button class="btn"><span class="iconify" data-icon="uil:comment"></span> Comment</button>
+                        <button class="btn"><span class="iconify" data-icon="mdi:share-outline"></span> Share</button>
+                    </div>
+                    <hr>
+                </div>
+                
+                <div class="posts">
+                    <div class="post-info">
+                        <img src="profile.jpg" id="pro">
+                        Mark Zuckerberg Shared a post.<br>1 August 2023
+                    </div>
+                    <img src="post2.jpg" id="pic1">
+                    <hr>
+                    <div class="feature-button">
+                        <button class="btn"><span class="iconify" data-icon="iconamoon:like-light"></span> Like</button>
+                        <button class="btn"><span class="iconify" data-icon="uil:comment"></span> Comment</button>
+                        <button class="btn"><span class="iconify" data-icon="mdi:share-outline"></span> Share</button>
+                    </div>
+                    <hr>
+                </div>
+                <div class="posts">
+                    <div class="post-info">
+                        <img src="profile.jpg" id="pro">
+                        Mark Zuckerberg Shared a post.<br>20 July 2023
+                    </div>
+                    <img src="profile.jpg" id="pic1">
+                    <hr>
+                    <div class="feature-button">
+                        <button class="btn"><span class="iconify" data-icon="iconamoon:like-light"></span> Like</button>
+                        <button class="btn"><span class="iconify" data-icon="uil:comment"></span> Comment</button>
+                        <button class="btn"><span class="iconify" data-icon="mdi:share-outline"></span> Share</button>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.head{
+    height: 370px;
+}
+#cover{
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.profile-image-div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#profile{
+    border-radius: 50%;
+    height: 170px;
+    cursor: pointer;
+}
+
+
+.button{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    gap: 10px;
+    margin-right: 20px;
+}
+#b1{
+    color: white;
+    height: 30px;
+    width: 130px;
+    background-color: blueviolet;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+#b1:hover{
+    background-color: blue;
+}
+#b2{
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+#b2:hover{
+    background-color: rgb(220, 220, 220);
+}
+
+hr{
+    margin-top: 20px;
+}
+
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    /* position: fixed; */
+}
+.details{
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px;
+}
+
+.photos{
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px;
+}
+.picture{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.friends{
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px;
+}
+.friends-card{
+    margin-top: 20px;
+}
+.friends-card-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.friend{
+    display: flex;
+    flex-direction: column;
+}
+
+.f1{
+    height: 150px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+#pro{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.timeline{
+    width: 540px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px;
+}
+#box{
+    display: flex;
+    gap: 20px;
+}
+#search{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px dotted;
+}
+
+.posts-container{
+    margin-top: 10px;
+}
+
+.posts{
+    width: 540px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px;
+}
+.post-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#pic1{
+    height: 530px;
+    width: 530px;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+}
+
+
+.btn1{
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 20px;
+    /* background-color: rgb(220, 220, 220); */
+}
+.btn1:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.btn{
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.btn:hover{
+    background-color: rgb(220, 220, 220);
+}
+
+.feature-button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width:1000px) {
+    .wrapper{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .main{
+        padding: 10px;
+    }
+    .details{
+        padding: 0px;
+    }
+    .friends{
+        padding: 0px;
+    }
+    .photos{
+        padding: 0px;
+    }
+    .cover{
+        padding: 20px;
+    }
+    .posts-container{
+        padding: 10px;
+        display: grid;
+    }
+    .timeline{
+        width: 95%;
+    }
+    .posts{
+        width: 95%;
+    }
+    #pic1{
+        width: 95%;
+    }
+}
